@@ -160,9 +160,7 @@ void millisDelay(int ms) {
  unsigned long now = millis();
  int ventetid = ms;
  
- while (millis() < now + ventetid) {
- }
-  
+ while (millis() < now + ventetid) { }
   }
 
 //Kjorer en lys-sekvens hvor alle RGB-diodene fader opp og ned gronnfarge.
